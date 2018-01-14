@@ -1,0 +1,13 @@
+✓ parse database
+✓ display
+✓ styles
+✓ config.my.json containing photo dir
+✓ search
+✓ clear button for search field
+✓ Escape button: clear search
+✓ use position:fixed for header instead of scrolling table div
+✓ move search logic out of Gui
+
+- onkeydown (alphanumeric) anywhere: focus search field
+- bring explorer to front?
+- make server cross-plattform

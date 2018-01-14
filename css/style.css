@@ -1,0 +1,120 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 13pt;
+}
+
+html {
+    background: #fff;
+}
+
+h1 {
+    margin: 1.05em 1.8em 1em 1.2em;
+    display: inline-block;
+    color: #555;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    height: 6.7em;
+}
+
+header::after {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    content: "";
+    width: 100%;
+    position: fixed;
+    top: 6.7em;
+    left: 0;
+    height: 1.2em;
+    background: white;
+}
+
+.table {
+    width: 100%;
+    margin: 8em 0 1em 0;
+}
+
+.line {
+    margin: 0 2em;
+    padding: 0.5em 1em;
+    background: #f5f5f5;
+    cursor: pointer;
+    border-bottom: 1px solid #bbb;
+}
+
+.line:hover {
+    background: #f0f0f0;
+}
+
+.line .dir {
+    display: inline-block;
+    width: 20vw;
+    padding-right: 1em;
+    vertical-align: middle;
+    word-break: break-all;
+}
+
+.line .tagString {
+    display: inline-block;
+    max-width: calc(80vw - 10em);
+    vertical-align: middle;
+}
+
+.line:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.highlight {
+    font-weight: bold;
+    background: yellow;
+}
+
+#searchParent {
+    position: absolute;
+    display: inline-block;
+    top: 2.2em;
+}
+
+#searchField {
+    padding: 0.4em 1.4em 0.4em 0.6em;
+    font-size: 15pt;
+    width: calc(85vw - 30em);
+    border: 1px solid #bbb;
+}
+
+#searchField:focus {
+    border: 1px solid #999;
+}
+
+#clearButton {
+    position: absolute;
+    right: 0.3em;
+    top: -0.05em;
+    font-size: 15pt;
+    padding: 0.43em;
+    border: 0px solid green;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    color: #777;
+}
+
+#editButton {
+    font-size: 13pt;
+    padding: 0.45em;
+    position: absolute;
+    top: 2.2em;
+    right: 3em;
+    width: 10em;
+}

@@ -1,0 +1,4 @@
+database.js
+*.sublime-project
+*.sublime-workspace
+server/config.my.json
